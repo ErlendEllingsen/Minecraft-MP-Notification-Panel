@@ -1,0 +1,72 @@
+/*
+	Coded by Erlend Ellingsen.
+*/
+
+div#editNewsList
+{
+	margin: 10px;
+	padding: 5px;
+	min-height: 150px;
+	background-color: #EBEAEB;
+	box-shadow: #CBCBCB 1px 1px 1px 0px;
+	border-radius: 5px;
+}
+
+input#createarticle, input#updatearticle
+{
+	margin-top: 20px;
+}
+
+p.newArticleAddin
+{
+	margin: 10px;
+}
+
+h3#contentTitle
+{
+	margin-bottom: 10px;
+}
+
+div#editNewsList h2, h2#newsArticleTitle
+{
+	margin-top: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #069001;
+	color: #069001;
+}
+
+div#editNewsList div#tableKeeper
+{
+	width: 720px;
+	margin: 5px auto 5px;
+	padding: 15px;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+
+div#editNewsList table  
+{
+	border-collapse: collapse;
+	width: 720px;
+	color: #FFF;
+}
+
+div#editNewsList table td 
+{
+	padding: 5px;
+	font-family: "Verdana";
+	font-size: 13px;
+	color: #000;
+	border: 1px solid #000;
+}
+
+div#editNewsList table tr#header td
+{
+	font-weight: bold;
+	border: 0px;
+}
+
+div#editNewsList input#createnewbutton
+{
+	margin: 10px;
+}

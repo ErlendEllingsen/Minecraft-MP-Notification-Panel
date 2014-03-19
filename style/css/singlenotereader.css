@@ -1,0 +1,96 @@
+/*
+	All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+	Script written for use on 'XioCo' and 'XioCo' ONLY. 
+	Script written June 2012.
+
+	Do not copy any code without permission from Erlend Ellingsen.
+*/
+
+div.singlenotereader
+{
+	margin-bottom: 15px;
+}
+
+div.singlenotereader h3
+{
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+div.singlenotereader img.linkIcon
+{
+	margin: 3px;
+	border: 0px;
+}
+
+p.datadescription
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	font-style: italic;
+}
+
+p.datadescription a 
+{
+	text-decoration: none;
+}
+
+
+div.notereader_contentBlockData
+{
+	width: 720px;
+	border: 1px solid #000;
+	background-color: #FFF;
+	margin: 10px auto 10px auto;
+}
+
+div.notereader_contentBlockData ul#commentlist
+{
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.notereader_contentBlockData ul#commentlist li 
+{
+	border: 1px solid #000;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	text-align: left;
+}
+
+div.notereader_contentBlockData ul#commentlist li p.postdata
+{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	border-bottom: 1px dashed #000;
+}
+
+div.notereader_contentBlockData ul#commentlist li p.postdata a
+{
+	text-decoration: none;
+}
+
+div.notereader_contentBlockData form
+{
+	padding: 15px;
+}
+
+div.notereader_contentBlockData form textarea
+{
+	width: 400px;
+	min-height: 70px;
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+
+div.notereader_contentBlockData form input[type="submit"]
+{
+	margin-top: 5px;
+	display: block;
+}

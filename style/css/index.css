@@ -1,0 +1,101 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+	
+/*
+	XioCo Index
+*/
+@import url('regular.css');
+
+/*
+	IMPORT SUBPAGES
+*/
+@import url('useradmin.css');
+@import url('viewprofile.css');
+@import url('notebrowser.css');
+@import url('newnote.css');
+@import url('editaccess.css');
+@import url('openpass.css');
+@import url('singlenotereader.css');
+@import url('news.css');
+@import url('editnote.css');
+@import url('editnews.css');
+@import url('useroptions.css');
+@import url('constructions.css');
+
+body
+{
+	background-color: #64B8FF;
+}
+
+div#header
+{
+	background-color: #333333;
+	color: #D2D2D2;
+	height: 15px;
+	padding: 10px;
+	font-size: 11px;
+}
+
+div#header span.topmenu_object { 
+	background-color: #5A5A5A;
+	height: 20px;
+	margin: 0px 0px 0px 5px;
+	min-width: 10px;
+	padding: 5px 10px 5px 10px;
+}
+
+div#header span.coowneronly
+{
+	background-color: #BB0808;
+}
+
+div#header_right
+{
+	position: absolute;
+	right: 5px;
+}
+
+
+div#header span#header_username
+{
+	font-weight: bold;
+}
+
+div#header a
+{
+	text-decoration: underline;
+	color: #D2D2D2;
+}
+
+div#main
+{
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	width: 850px;
+	min-height: 100px;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	box-shadow: 1px 1px 1px #8D8D8D;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #FFF;
+}
+
+div#information_notifications
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+form#updateemail
+{
+	padding: 15px 0px 5px 0px;
+}

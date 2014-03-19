@@ -1,0 +1,64 @@
+@import url('regular.css');
+
+body
+{
+	background-color: #64B8FF;
+}
+
+div#forgotbox
+{
+	width: 250px;
+	min-height: 260px;
+	padding: 15px;
+	margin: 40px auto 0px auto;
+	border: 1px solid #8D8D8D;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #8D8D8D;
+	background-color: #FFF;
+}
+
+
+div#forgotbox input
+{
+	margin-top: 10px;
+	width: 250px;
+}
+
+div#forgotbox span 
+{
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+	color: #939393;
+}
+
+div.loginField
+{
+	margin-top: 10px;
+	display: block;
+}
+
+div.subm
+{
+	color: #000;
+}
+
+div.presentMessage
+{
+	width: 300px;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+	color: #2C2C2C;
+}
+
+div.presentMessageError
+{
+	background-color: #FF8181;
+	border: 1px solid #F70202;
+}
+
+div.presentMessageSuccess
+{
+	background-color: #A7FF81;
+	border: 1px solid #38F702;
+}

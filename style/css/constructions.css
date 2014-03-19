@@ -1,0 +1,28 @@
+input.coordInput
+{
+	width: 60px;
+}
+
+textarea#constructionMessage
+{
+	width: 250px;
+	height: 150px;
+}
+
+table#activeConstructionList
+{
+	background-color: #FFF;
+	border-collapse: collapse;
+	margin: 10px;
+	width: 700px;
+}
+
+table#activeConstructionList tr td 
+{
+	border: 1px solid #000;
+}
+
+table#activeConstructionList tr#headerRow td 
+{
+	font-weight: bold;
+}

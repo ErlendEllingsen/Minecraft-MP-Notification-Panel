@@ -1,0 +1,160 @@
+/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+*/
+
+div#newsContainer
+{
+	float: left;
+	margin: 0px 5px 15px 0px;
+	width: 560px;
+}
+
+div.newsBox
+{
+	margin: 0px 25px 15px 0px;
+	width: 480px;
+	border: 1px solid #000;
+	background-color: #FFF;
+}
+
+div#newsBoxOnly
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.newsAuthorDesc
+{
+	display: block;
+	font-style: italic;
+	color: #424242;
+}
+
+div.rightContainer
+{
+	float: left;
+	width: 265px;
+	min-height: 100px;
+}
+
+div.rightwidget
+{
+	width: 265px;
+	min-height: 20px;
+	margin-bottom: 15px;
+	padding: 0px 0px 10px 0px;
+}
+
+div.lastnoteswidgetTitle
+{
+	padding: 15px 15px 5px 15px;
+}
+
+ul#lastnotesWidgetList, ul#notesWidgetListPage
+{
+	list-style: none;
+	width: 244px;
+	padding: 0px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+div#lastnoficationcenterer
+{
+	padding: 5px 10px 0px 10px;
+}
+
+div#notificationCentring
+{
+	width: 600px;
+	margin: 10px auto 10px auto;
+}
+
+ul#notesWidgetListPage
+{
+	width: 600px;
+}
+
+ul#lastnotesWidgetList li, ul#notesWidgetListPage li
+{
+	margin: 10px auto 0px auto;
+	padding: 5px;
+	min-height: 25px;
+	background-color: red;
+	color: #4E4E4E;
+	cursor: pointer;
+}
+
+span.usernametest
+{
+    text-stroke: 1px #000;
+}
+
+ul#lastnotesWidgetList li a, ul#notesWidgetListPage li a 
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul#lastnotesWidgetList li.note, ul#notesWidgetListPage li.note
+{
+	border: 2px solid #3F9CF3 !important;
+	background-color: white;
+}
+
+ul#lastnotesWidgetList li.kick, ul#notesWidgetListPage li.kick
+{
+	border: 2px solid #060606 !important;
+	background-color: white;
+	color: #000;
+}
+
+ul#lastnotesWidgetList li.warning, ul#notesWidgetListPage li.warning
+{
+	border: 2px solid #F3DB3F !important;
+	background-color: white;
+}
+
+ul#lastnotesWidgetList li.ban, ul#notesWidgetListPage li.ban
+{
+	border: 2px solid #FA5858 !important;
+	background-color: white;
+	color: #000;
+}
+
+ul#lastnotesWidgetList li.tempban, ul#notesWidgetListPage li.tempban
+{
+	border: 2px solid #FF9D9D !important;
+	background-color: white;
+	color: #000;
+}
+
+ul#lastnotesWidgetList li.unban, ul#notesWidgetListPage li.unban
+{
+	border: 2px solid #60EE73 !important;
+	background-color: white;
+	color: #000;
+}
+
+ul#lastnotesWidgetList li.news, ul#notesWidgetListPage li.news
+{
+	border: 2px solid #9702B1 !important;
+	background-color: white;
+	color: #000;
+}
+
+div#noteWidgetColorCodes
+{
+	text-align: center;
+}
+
+div.cl
+{
+	clear: both;
+}
+

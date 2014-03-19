@@ -1,0 +1,34 @@
+/*
+	All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+	Script written for use on 'XioCo' and 'XioCo' ONLY. 
+	Script written June 2012.
+
+	Do not copy any code without permission from Erlend Ellingsen.
+*/
+
+div#noteedit input[type="text"]
+{
+	width: 250px;
+}
+
+table#noteinfoTable
+{
+	width: 550px;
+}
+
+table#noteinfoTable a 
+{
+	text-decoration: none
+}
+
+span.editKey
+{
+	font-weight: bold;
+	margin-right: 25px;
+}
+
+textarea#noteEditDscr
+{
+	width: 350px;
+	height: 150px;
+}

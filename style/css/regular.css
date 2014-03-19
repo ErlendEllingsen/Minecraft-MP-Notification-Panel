@@ -1,0 +1,121 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+/*
+	Regular 
+*/
+
+html, body
+{
+	margin: 0px;
+}
+
+body, td, p, input, select, option
+{
+	font-family: "Verdana";
+	font-size: 13px;
+}
+
+input
+{
+	color: #9F9F9F;
+	border: 1px solid #9F9F9F;
+}
+
+input[type="submit"]
+{
+	background-color: #FFF;
+	color: #000;
+}
+
+h3, h2
+{
+	margin: 0px;
+	color: #069001;
+	font-style: none;
+	border-bottom: 1px solid #069001;
+}
+
+a
+{
+	color: #404040;
+}
+
+a.pagin
+{
+	color: #FFF;
+	background-color: #5BABFB;
+	border: 1px solid #5A5A5A;
+	border-radius: 15px;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+a.currpage
+{
+	text-decoration: none;
+}
+
+tr.tabletoprow td
+{
+	font-weight: bold;
+}
+
+
+
+div.contentbox
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 720px;
+	min-height: 20px;
+	background-color: #EBEAEB;
+	box-shadow: 1px 1px 1px #CBCBCB;
+	border-radius: 15px;
+}
+
+div.notification
+{
+	padding: 15px;
+	margin: 20px auto;
+	width: 440px;
+	min-height: 20px;
+	border: 1px solid #3F9CF3;
+	background-color: #9DD0FF;
+}
+
+div.colorBox
+{
+	width: 10px;
+	height: 10px;
+	margin: 3px 2px 0px 2px;
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+div.notification a
+{
+	color: #000;
+}
+
+div.error
+{
+	background-color: #FF9D9D;
+	border: 1px solid #F33F3F;
+}
+
+div.success
+{
+	background-color: #B3FF9D;
+	border: 1px solid #45F33F;
+}
+
+span.notransform, h3.notransform, h2.notransform, h1.notransform, p.notransform
+{
+	text-transform: none;
+}

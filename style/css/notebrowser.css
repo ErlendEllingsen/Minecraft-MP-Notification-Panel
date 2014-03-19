@@ -1,0 +1,83 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+div.noteblock
+{
+	margin: 10px auto 0px auto;
+}
+
+div.noteblock a.notetitle
+{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+}
+
+div.noteblock p
+{
+	margin: 0px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+div.noteblock span.authorline
+{
+	display: block;
+	font-style: italic;
+}
+
+div.noteblock span.authorline a
+{
+	text-decoration: none;
+	font-size: 13px;
+}
+
+span#notebrowser_colortips
+{
+	margin-left: 25px;
+}
+
+div.note_note
+{
+	border: 1px solid #3F9CF3;
+	background: rgba(157, 208, 255, 1);
+}
+
+div.note_kick
+{
+	border: 1px solid #060606;
+	background: rgba(80, 80, 80, 1);
+}
+
+div.note_warning
+{
+	border: 1px solid #F3DB3F;
+	background-color: #FFE59D;
+}
+
+div.note_ban
+{
+
+	border: 1px solid #F93737;
+	background-color: #FA5858;
+}
+
+div.note_tempban
+{
+	border: 1px solid #FF9D9D;
+	background-color: #FB7777;
+}
+
+div.note_unban
+{
+	border: 1px solid #60EE73;
+	background-color: #ACF6B6;
+	color: #000;
+}

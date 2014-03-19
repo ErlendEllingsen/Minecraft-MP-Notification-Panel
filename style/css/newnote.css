@@ -1,0 +1,25 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+div#newnotecontainer input[type="radio"]
+{
+	width: 15px;
+	height: 15px;
+}
+
+div#newnotecontainer input[type="text"]
+{
+	width: 260px;
+}
+
+div#newnotecontainer textarea#desc
+{
+	display: block;
+	width: 260px;
+	height: 100px;
+}
+

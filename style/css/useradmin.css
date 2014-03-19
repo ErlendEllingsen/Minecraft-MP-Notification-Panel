@@ -1,0 +1,44 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+/*
+	Main page useradmin
+*/
+
+
+table#searchtable, table#userlist
+{
+	margin: 0px auto 0px auto;
+	width: 720px;
+}
+
+input#usearchbutton
+{
+	background-color: #FFF;
+	color: #000;
+	width: 150px;
+}
+
+form#newprofile
+{
+	margin-top: 5px;
+}
+
+/*
+	PROFILE CREATION
+*/
+
+table#profilecreationtable
+{
+	width: 450px;
+}
+
+input#createprofilebutton
+{
+	background-color: #FFF;
+	color: #000;
+}

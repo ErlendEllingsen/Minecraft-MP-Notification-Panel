@@ -1,0 +1,60 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+/*
+	Login
+*/
+
+@import url('regular.css');
+
+body
+{
+	background-color: #64B8FF;
+}
+
+div#loginbox
+{
+	width: 250px;
+	min-height: 160px;
+	padding: 15px;
+	margin: 40px auto 0px auto;
+	border: 1px solid #8D8D8D;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #8D8D8D;
+	background-color: #FFF;
+}
+
+
+div#loginbox input
+{
+	width: 250px;
+}
+
+div.loginField
+{
+	margin-top: 10px;
+	display: block;
+}
+
+div.subm
+{
+	color: #000;
+}
+
+div.presentMessage
+{
+	width: 300px;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+	color: #2C2C2C;
+}
+
+div.presentMessageError
+{
+	background-color: #FF8181;
+	border: 1px solid #F70202;
+}

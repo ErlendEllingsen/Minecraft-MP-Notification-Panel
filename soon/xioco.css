@@ -1,0 +1,69 @@
+/*
+	CSS written by Erlend Ellingsen
+*/
+
+body, html
+{
+	font-family: "Verdana";
+	font-size: 13px;
+	background-color: #000;
+	padding: 5px;
+}
+
+div#imageObject
+{
+	padding-top: 50px;
+	margin: 10px auto 0px auto;
+	width: 1000px;
+	height: 750px;
+	background-image: url('images/bg3.png');
+	background-position: center;
+	-webkit-box-shadow: 1px 1px 25px rgba(66, 66, 66, 0.75);
+	-moz-box-shadow: 1px 1px 25px rgba(66, 66, 66, 0.75);
+	box-shadow: 1px 1px 25px rgba(66, 66, 66, 0.75);
+	border-radius: 20px;
+}
+
+div#titleContainer
+{
+	margin: 20px;
+	text-align: center;
+}
+
+
+div#titleContainer h1, h2, h3
+{
+	color: white;
+	text-shadow: 5px 5px 5px #424242;
+}
+
+div#titleContainer h2#date
+{
+	color: yellow;
+	text-shadow: 1px 1px 1px #000;
+}
+
+div#titleContainer span#date
+{
+	font-size: 45px;
+	color: #FFF;
+	text-shadow: 3px 0px 3px #000;
+}
+
+div#centerfb
+{
+	margin: 10px auto 0px auto;
+	width: 1000px;
+}
+
+div#centerfb p
+{
+	margin: 10px 0px 5px 5px;
+}
+
+div#centerfb p a 
+{
+	color: #D1D1D1;
+	text-decoration: underline;
+	margin: 0px 10px 0px 10px;
+}

@@ -1,0 +1,3 @@
+#for å åpne countdownen, endre status=open/closed
+#status kan være closed eller open
+[status=open]

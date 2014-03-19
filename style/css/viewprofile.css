@@ -1,0 +1,149 @@
+	/*
+		All code in this script (including ALL files inside this directory) is property of Erlend Ellingsen.
+		Script written for use on 'XioCo' and 'XioCo' ONLY. 
+		Script written June 2012.
+
+		Do not copy any code without permission from Erlend Ellingsen.
+	*/
+span#profileUserDesc
+{
+	font-style: italic;
+	color: #9F9F9F;
+}
+
+div#profileNoteListContainer
+{
+	float: left;
+	margin: 15px 15px 0px 50px;
+	width: 450px;
+	min-height: 20px;
+	background-color: #EBEAEB;
+	box-shadow: 1px 1px 1px #CBCBCB;
+	border-radius: 15px;
+}
+
+h3#profileNoteListTitle, p#profileNoteListDesc
+{
+	margin: 15px;
+}
+
+p#profileMoreNotesLink
+{
+	margin: 5px 15px 10px 15px;
+}
+
+ul#profileNoteList
+{
+	list-style: none;
+	width: 450px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+ul#profileNoteList li
+{
+	margin: 1px 0px;
+	padding: 5px;
+	min-height: 35px;
+	background-color: red;
+
+}
+
+ul#profileNoteList li.note 
+{
+	border: 1px solid #3F9CF3;
+	background-color: #9DD0FF;
+}
+
+ul#profileNoteList li.kick
+{
+	border: 1px solid #060606;
+	background-color: #505050;
+
+}
+
+ul#profileNoteList li.warning
+{
+	border: 1px solid #F3DB3F;
+	background-color: #FFE59D;
+}
+
+ul#profileNoteList li.ban
+{
+	background-color: #FA5858;
+	border: 1px solid #F93737;
+	color: #FFF;
+}
+
+ul#profileNoteList li.tempban
+{	
+	background-color: #FF9D9D;
+	border: 1px solid #FF9D9D;
+	color: #FFF;
+}
+
+ul#profileNoteList li.unban
+{	
+	background-color: #A0FCA8;
+	border: 1px solid #60EE73;
+	color: #FFF;
+}
+
+span.noteTitle
+{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+span.noteTitle a
+{
+	color: #000;
+}
+
+span.noteDate
+{
+	color: #4E4E4E;
+}
+
+span.noteDate a 
+{
+	text-decoration: none;
+}
+
+ul#profileNoteList li.kick span.noteDate
+{
+	color: #FFF;
+}
+
+
+div#profileAdministrativeOptions
+{
+	float: left;
+	margin: 15px 15px 0px 0px;
+	padding: 15px;
+	width: 225px;
+	min-height: 20px;
+	background-color: #EBEAEB;
+	box-shadow: 1px 1px 1px #CBCBCB;
+	border-radius: 15px;
+}
+
+ul#adminoptions
+{
+	padding: 0px;
+	list-style: none;
+}
+
+ul#adminoptions li
+{
+	width: 215px;
+	min-height: 20px;
+	margin: 5px;
+	padding: 5px 0px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 1px 1px 1px #000;
+}
